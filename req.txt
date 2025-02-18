@@ -1,0 +1,7 @@
+praw
+streamlit
+chromadb
+langchain_huggingface
+numpy
+langchain_community
+langchain_chroma
