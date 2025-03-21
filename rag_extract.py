@@ -13,9 +13,9 @@ import pytz
 def setup_reddit_client():
     """Initialize Reddit API client with direct credentials"""
     return praw.Reddit(
-        client_id='OcIAPOXK3LXJal99JgQYjw',
-        client_secret='vtWx1bQPGWmOXTb5_fAJeepu8NO8Ug',
-        user_agent='Used_Camera_9923'
+        client_id='your_client_id',
+        client_secret='your_client_secret_key',
+        user_agent='your_reddit_username'
     )
 
 def format_timestamp(timestamp):
